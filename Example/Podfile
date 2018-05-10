@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CXConponent1_Example' do
+  pod 'CXConponent1', :path => '../'
+
+  target 'CXConponent1_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
